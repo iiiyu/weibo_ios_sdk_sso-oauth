@@ -162,7 +162,7 @@
         NSInteger error_code = 0;
         if([result isKindOfClass:[NSDictionary class]])
         {
-            [[result objectForKey:@"error_code"] intValue];
+            error_code = [[result objectForKey:@"error_code"] intValue];
         }
         
         if (error_code != 0)
