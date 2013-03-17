@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "weibo_ios_sdk_sso-oauth"
+  s.name         = "WeiboSDK"
   s.version      = "0.0.1"
   s.summary      = "Sina Weibo SDK"
   s.homepage     = "www.sina.com"
